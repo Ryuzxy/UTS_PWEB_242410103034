@@ -1,11 +1,48 @@
 @import 'tailwindcss';
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+  .profile-photo {
+    @apply w-12 h-12 mt-1 rounded-full;
+}
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+  .menu-dark {
+    @apply text-gray-800;
+}
+
+  .menu-icon {
+    @apply px-2 text-gray-400 bg-gray-900 hover:bg-gray-300 rounded-full shadow-lg hover:text-white cursor-pointer;
+    @apply transition duration-300 ease-in-out;
+    @apply flex items-center space-x-2;
+}
+
+  .main-content {
+    @apply min-h-screen bg-gray-100 pt-22;
+    @apply flex-grow;
+}
+
+  .app-footer {
+  @apply  border-gray-800 ;
+}
+
+.footer-container {
+  @apply max-w-7xl mx-auto px-6 py-12 space-y-8 text-center overflow-hidden;
+}
+
+.footer-nav {
+  @apply flex flex-wrap justify-center gap-4 sm:gap-6 text-gray-600;
+}
+
+.footer-nav a {
+  @apply text-base hover:text-gray-900 transition duration-200;
+}
+
+.footer-social {
+  @apply flex justify-center space-x-6 mt-4 text-gray-500;
+}
+
+.footer-social a {
+  @apply text-gray-400 hover:text-gray-600 text-2xl transition duration-200;
+}
+
+.footer-copy {
+  @apply mt-8 text-sm text-gray-500;
 }

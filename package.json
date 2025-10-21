@@ -4,14 +4,19 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "serve": "php artisan serve",
+        "refresh": "php artisan optimize:clear && php artisan serve & vite",
+        "start": "concurrently \"npm run refresh\" \"npm run dev\" "
     },
     "devDependencies": {
-        "@tailwindcss/vite": "^4.0.0",
+        "@tailwindcss/vite": "^4.1.15",
+        "autoprefixer": "^10.4.21",
         "axios": "^1.11.0",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^2.0.0",
-        "tailwindcss": "^4.0.0",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.15",
         "vite": "^7.0.7"
     }
 }
