@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+.dashboard-static {
+    @apply bg-gray-100 min-h-screen;
+    @apply p-8 w-full;
+    @apply flex flex-col;
+}
+
+.dashboard-title {
+    @apply text-2xl font-semibold text-gray-800 mb-4 mt-8;
+    @apply text-center;
+}
+
+.dashboard-cards {
+    @apply flex flex-col;
+    @apply md:flex-row md:space-x-6;
+    @apply space-y-6 md:space-y-0;
+    @apply mx-auto;
+}
+
+.dashboard-card {
+    @apply bg-gray-300;
+    @apply p-6 rounded-lg shadow-md;
+    @apply flex flex-col items-center;
+}
+
+.card-loop {
+    @apply bg-white shadow-md hover:shadow-xl rounded-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300;
+    @apply w-64;
+    @apply flex-shrink-0;
+}
+
+.dashboard-charts {
+    @apply mt-7;
+    @apply mx-auto;
+}
+
+.charts-title {
+    @apply text-xl font-medium text-gray-700 mb-4;
+    @apply text-center;
+}
+
+.charts-container {
+    @apply bg-gray-800 rounded-full;
+    @apply p-4;
+    @apply flex flex-col md:flex-row md:space-x-6;
+    @apply space-y-6 md:space-y-0;
+}
+
+.chart1 {
+    @apply mb-6;
+    @apply bg-gray-900 rounded-lg p-4 shadow;
+    @apply flex justify-between items-center;
+}
+
+.chart2 {
+    @apply mb-6;
+    @apply bg-gray-900 rounded-lg p-4 shadow;
+    @apply flex justify-between items-center;
+}

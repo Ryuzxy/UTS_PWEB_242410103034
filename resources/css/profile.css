@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.display {
+    @apply p-10 bg-gray-100 min-h-screen;
+}
+
+.text-title {
+    @apply text-2xl text-center font-bold mb-4;
+}
+
+.card {
+    @apply bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto flex flex-col md:flex-row items-center gap-6;
+}
+
+.card-image {
+    @apply h-24 w-24 rounded-full bg-blue-500 text-white flex items-center justify-center text-3xl font-semibold;
+}
+
+.button{
+    @apply px-4 py-2 bg-blue-500 text-white rounded mt-4 inline-block hover:bg-blue-600
+}

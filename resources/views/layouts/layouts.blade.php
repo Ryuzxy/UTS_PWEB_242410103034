@@ -11,6 +11,6 @@
         @yield("content")
     </main>
 
-    @include("components.footer")
+    @extends("components.footer")
 </body>
 </html>
