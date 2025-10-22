@@ -68,14 +68,14 @@ class PageController extends Controller
                 'tipe' => 'Pistol',
                 'stok' => 8,
                 'harga' => 800000,
-                'gambar' => 'glock.jpeg'
+                'gambar' => 'G7.webp'
             ],
             [
                 'nama' => 'Remington 870',
                 'tipe' => 'Shotgun',
                 'stok' => 5,
                 'harga' => 2000000,
-                'gambar' => 'remington.jpeg'
+                'gambar' => 'R8.jpg'
             ],
         ];
 

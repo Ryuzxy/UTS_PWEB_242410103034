@@ -1,5 +1,5 @@
 <div class="mt-1">
-  <h2 class="text-2xl font-semibold mb-4">📊 Negara Pembeli Senjata</h2>
+  <h2 class="text-2xl font-semibold text-gray-200 text-center mb-4">Top Negara Pembeli Senjata</h2>
   <table class="min-w-full border border-gray-300 rounded-lg overflow-hidden">
     <thead class="bg-gray-800 text-white">
       <tr>
@@ -13,7 +13,7 @@
     </thead>
     <tbody>
       @foreach($buyers as $buyer)
-      <tr class="border-b">
+      <tr class="border-b border-gray-300 hover:bg-gray-700 bg-gray-200">
         <td class="px-4 py-2 font-medium">{{ $buyer['country'] }}</td>
         <td class="px-4 py-2">{{ strtoupper($buyer['code']) }}</td>
         <td class="px-4 py-2">{{ $buyer['units'] }}</td>

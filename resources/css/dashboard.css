@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 .dashboard-static {
-    @apply bg-gray-100 min-h-screen;
+    @apply bg-transparent min-h-screen;
     @apply p-8 w-full;
     @apply flex flex-col;
 }
 
 .dashboard-title {
-    @apply text-2xl font-semibold text-gray-800 mb-4 mt-8;
+    @apply text-2xl font-semibold text-gray-200 mb-4 mt-8;
     @apply text-center;
 }
 

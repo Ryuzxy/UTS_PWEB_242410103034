@@ -1,5 +1,5 @@
 <header>
-    <nav class="bg-gray-400 px-6 py-3 fixed top-0 w-full z-10">
+    <nav class="px-6 py-3 fixed top-0 w-full z-10 backdrop-blur-xs bg-white/50" style="-webkit-backdrop-filter: blur(4px);">
     <div class="flex items-center justify-between">
         <div class="flex items-center space-x-4">
         <img 

@@ -15,7 +15,7 @@
 }
 
   .main-content {
-    @apply min-h-screen bg-gray-100 pt-22;
+    @apply min-h-screen pt-22;
     @apply flex-grow;
 }
 

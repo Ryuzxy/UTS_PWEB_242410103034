@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .display {
-    @apply p-10 bg-gray-100 min-h-screen;
+    @apply p-10  min-h-screen;
 }
 
 .text-title {
@@ -18,4 +18,24 @@
 
 .button{
     @apply px-4 py-2 bg-blue-500 text-white rounded mt-4 inline-block hover:bg-blue-600
+}
+
+.infoakun {
+    @apply flex-1 w-full;
+}
+
+.list {
+    @apply space-y-2 text-gray-700;
+}
+
+.buttonlist {
+    @apply mt-4 flex flex-wrap gap-3;
+}
+
+.edit {
+    @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600;
+}
+
+.change {
+    @apply px-4 py-2 border border-gray-300 rounded hover:bg-gray-50;
 }
